@@ -173,7 +173,7 @@ export default function TeamPage() {
                 viewport={{ once: true }}
               >
                 <div style={{ width: '100%', height: '380px', marginBottom: '24px', borderRadius: '12px', overflow: 'hidden', background: 'rgba(255,255,255,0.05)' }}>
-                  <img src={`/team-photos/image${37 + idx}.png`} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }} />
+                  <img src={`/${member.name.replace(/\s+/g, '')}.jpg`} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }} />
                 </div>
                 <h3 style={{ fontSize: '24px', fontWeight: 900, marginBottom: '8px' }}>{member.name}</h3>
                 <p style={{ fontSize: '12px', fontWeight: 600, letterSpacing: '0.1em', color: 'rgba(255,255,255,0.6)', marginBottom: '16px' }}>
@@ -210,7 +210,7 @@ export default function TeamPage() {
                 viewport={{ once: true }}
               >
                 <div style={{ width: '100%', marginBottom: '24px', borderRadius: '12px', overflow: 'hidden', background: 'rgba(255,255,255,0.05)' }}>
-                  <img src={`/team-photos/image${42 + idx}.png`} alt={member.name} style={{ width: '100%', height: 'auto', display: 'block' }} />
+                  <img src={`/${member.name.replace(/\s+/g, '')}.jpg`} alt={member.name} style={{ width: '100%', height: 'auto', display: 'block' }} />
                 </div>
                 <h3 style={{ fontSize: '24px', fontWeight: 900, marginBottom: '8px' }}>{member.name}</h3>
                 <p style={{ fontSize: '12px', fontWeight: 600, letterSpacing: '0.1em', color: 'rgba(255,255,255,0.6)', marginBottom: '16px' }}>
@@ -250,7 +250,7 @@ export default function TeamPage() {
                 viewport={{ once: true }}
               >
                 <div style={{ width: '100%', height: '380px', marginBottom: '24px', borderRadius: '12px', overflow: 'hidden', background: 'rgba(255,255,255,0.05)' }}>
-                  <img src={`/team-photos/image${44 + idx}.png`} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }} />
+                  <img src={`/${member.name.replace(/\s+/g, '')}.jpg`} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }} />
                 </div>
                 <h3 style={{ fontSize: '24px', fontWeight: 900, marginBottom: '8px' }}>{member.name}</h3>
                 <p style={{ fontSize: '12px', fontWeight: 600, letterSpacing: '0.1em', color: 'rgba(255,255,255,0.6)', marginBottom: '16px' }}>
