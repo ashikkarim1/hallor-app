@@ -98,8 +98,8 @@ export default function TeamPage() {
       >
         <div style={{ maxWidth: '100%', padding: '24px 80px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <Link href="/" style={{ textDecoration: 'none' }}>
-            <motion.div style={{ display: 'flex', alignItems: 'center', gap: '12px', cursor: 'pointer' }} whileHover={{ scale: 1.02 }}>
-              <img src="/canada-flag.png" alt="Canadian flag" style={{ height: '16px', width: 'auto', flexShrink: 0 }} />
+            <motion.div style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }} whileHover={{ scale: 1.02 }}>
+              <img src="/halloricon.png" alt="Hallor Logo" style={{ height: '32px', width: 'auto', flexShrink: 0 }} />
               <span style={{ fontSize: '20px', fontWeight: 900, letterSpacing: '-0.02em', color: '#000' }}>HALLOR</span>
             </motion.div>
           </Link>
