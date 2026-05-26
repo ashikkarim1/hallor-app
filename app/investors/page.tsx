@@ -325,7 +325,7 @@ export default function InvestorsPage() {
             Request Our Pitch Deck
           </motion.h2>
 
-          <motion.p style={{ fontSize: '17px', fontWeight: 300, marginBottom: '60px', color: 'rgba(255,255,255,0.8)', maxWidth: '650px', margin: '0 auto', marginBottom: '60px', lineHeight: 1.8 }} variants={slideUp}>
+          <motion.p style={{ fontSize: '17px', fontWeight: 300, color: 'rgba(255,255,255,0.8)', maxWidth: '650px', margin: '0 auto 60px auto', lineHeight: 1.8 }} variants={slideUp}>
             Comprehensive overview of market opportunity, competitive positioning, financial projections, and use-of-capital. Sent confidentially to qualified investors.
           </motion.p>
 

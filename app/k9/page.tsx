@@ -212,7 +212,7 @@ export default function K9Page() {
           <motion.h2 style={{ fontSize: 'clamp(2.2rem, 9vw, 4rem)', fontWeight: 900, marginBottom: '36px', lineHeight: 1.15, letterSpacing: '-0.01em', color: '#fff' }} variants={slideUp}>
             Ready for Next-Gen Defense Mobility?
           </motion.h2>
-          <motion.p style={{ fontSize: '17px', fontWeight: 300, marginBottom: '60px', color: 'rgba(255,255,255,0.8)', maxWidth: '650px', margin: '0 auto', marginBottom: '60px', lineHeight: 1.8 }} variants={slideUp}>
+          <motion.p style={{ fontSize: '17px', fontWeight: 300, color: 'rgba(255,255,255,0.8)', maxWidth: '650px', margin: '0 auto 60px auto', lineHeight: 1.8 }} variants={slideUp}>
             Schedule a briefing with our defense systems team to explore K9 Defend capabilities.
           </motion.p>
           <motion.button
