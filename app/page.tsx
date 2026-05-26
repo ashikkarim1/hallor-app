@@ -69,11 +69,11 @@ export default function Home() {
       </motion.nav>
 
       {/* HERO */}
-      <section style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', paddingTop: '120px', paddingLeft: '60px', paddingRight: '60px', paddingBottom: '60px', background: '#0a0a0a', position: 'relative', overflow: 'hidden' }}>
+      <section style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', paddingTop: '80px', paddingLeft: '60px', paddingRight: '60px', paddingBottom: '40px', background: '#0a0a0a', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '400px', background: 'linear-gradient(135deg, rgba(0,217,255,0.05) 0%, rgba(0,153,255,0.02) 100%)', pointerEvents: 'none' }} />
 
         <motion.div style={{ maxWidth: '950px', width: '100%', position: 'relative', zIndex: 1 }} initial="hidden" animate="visible" variants={fadeIn}>
-          <motion.div style={{ fontSize: '13px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '32px', color: '#00D9FF', textTransform: 'uppercase' }} variants={slideUp}>
+          <motion.div style={{ fontSize: '13px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '16px', color: '#00D9FF', textTransform: 'uppercase' }} variants={slideUp}>
             Sovereign Electric Mobility
           </motion.div>
 
@@ -82,7 +82,7 @@ export default function Home() {
               fontSize: 'clamp(3rem, 12vw, 5.5rem)',
               fontWeight: 900,
               lineHeight: 1.05,
-              marginBottom: '40px',
+              marginBottom: '20px',
               letterSpacing: '-0.02em',
               color: '#fff',
             }}
@@ -93,7 +93,7 @@ export default function Home() {
             <div>Infrastructure.</div>
           </motion.h1>
 
-          <motion.p style={{ fontSize: '18px', fontWeight: 300, marginBottom: '72px', maxWidth: '650px', color: 'rgba(255,255,255,0.8)', lineHeight: 1.7 }} variants={slideUp}>
+          <motion.p style={{ fontSize: '18px', fontWeight: 300, marginBottom: '36px', maxWidth: '650px', color: 'rgba(255,255,255,0.8)', lineHeight: 1.7 }} variants={slideUp}>
             Proven across aviation. Advancing into defense. Designed for sovereignty.
           </motion.p>
 
@@ -143,7 +143,7 @@ export default function Home() {
               width: '100%',
               background: '#1a1a1a',
               borderRadius: '24px',
-              marginTop: '80px',
+              marginTop: '40px',
               border: '1px solid rgba(255,255,255,0.08)',
               boxShadow: '0 40px 80px rgba(255,255,255,0.08)',
               overflow: 'hidden',
@@ -156,10 +156,10 @@ export default function Home() {
       </section>
 
       {/* PLATFORM */}
-      <section id="platform" style={{ padding: '160px 60px', background: '#0a0a0a' }}>
+      <section id="platform" style={{ padding: '100px 60px', background: '#0a0a0a' }}>
         <motion.div style={{ maxWidth: '1000px', margin: '0 auto' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
-          <motion.div style={{ marginBottom: '96px' }} variants={slideUp}>
-            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '28px', color: '#00D9FF', textTransform: 'uppercase' }}>
+          <motion.div style={{ marginBottom: '48px' }} variants={slideUp}>
+            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '12px', color: '#00D9FF', textTransform: 'uppercase' }}>
               Sovereign Mobility Platform
             </div>
             <h2 style={{ fontSize: 'clamp(2.2rem, 9vw, 4rem)', fontWeight: 900, lineHeight: 1.15, marginBottom: '32px', letterSpacing: '-0.01em' }}>
@@ -174,7 +174,7 @@ export default function Home() {
             Same modular electric drivetrain. Seven years of proven commercial deployment. Now advancing into defense with military-spec autonomous systems. Revenue-generating GSE platform funds next-gen K9 Defense innovation.
           </motion.p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(450px, 1fr))', gap: '48px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(450px, 1fr))', gap: '32px' }}>
             {[
               {
                 icon: 'GSE',
@@ -271,11 +271,11 @@ export default function Home() {
             </h2>
           </motion.div>
 
-          <motion.p style={{ fontSize: '18px', fontWeight: 300, marginBottom: '96px', color: 'rgba(255,255,255,0.8)' }} variants={slideUp}>
+          <motion.p style={{ fontSize: '18px', fontWeight: 300, marginBottom: '48px', color: 'rgba(255,255,255,0.8)' }} variants={slideUp}>
             Seven years of operational history. Eight airports worldwide. 600+ trials completed. Manufacturing partnerships locked. Commercial revenue flowing. Government procurement pathway clear.
           </motion.p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '40px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '24px' }}>
             {[
               { number: '8', label: 'Airports Operating' },
               { number: '600+', label: 'Trial Hours' },
@@ -300,9 +300,9 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <section id="contact" style={{ padding: '160px 60px', background: '#0a0a0a', color: '#fff', textAlign: 'center', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
+      <section id="contact" style={{ padding: '100px 60px', background: '#0a0a0a', color: '#fff', textAlign: 'center', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
         <motion.div style={{ maxWidth: '800px', margin: '0 auto' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
-          <motion.div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '28px', color: '#00D9FF', textTransform: 'uppercase' }} variants={slideUp}>
+          <motion.div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '12px', color: '#00D9FF', textTransform: 'uppercase' }} variants={slideUp}>
             Let's Connect
           </motion.div>
 
