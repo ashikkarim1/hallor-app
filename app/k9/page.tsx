@@ -64,11 +64,11 @@ export default function K9Page() {
       </motion.nav>
 
       {/* HERO */}
-      <section style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', paddingTop: '120px', paddingLeft: '60px', paddingRight: '60px', paddingBottom: '60px', background: '#0a0a0a', position: 'relative', overflow: 'hidden' }}>
+      <section style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', paddingTop: '80px', paddingLeft: '60px', paddingRight: '60px', paddingBottom: '40px', background: '#0a0a0a', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '400px', background: 'linear-gradient(135deg, rgba(0,153,255,0.08) 0%, rgba(0,217,255,0.03) 100%)', pointerEvents: 'none' }} />
 
         <motion.div style={{ maxWidth: '950px', width: '100%', position: 'relative', zIndex: 1 }} initial="hidden" animate="visible" variants={fadeIn}>
-          <motion.div style={{ fontSize: '13px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '32px', color: '#0099FF', textTransform: 'uppercase' }} variants={slideUp}>
+          <motion.div style={{ fontSize: '13px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '16px', color: '#0099FF', textTransform: 'uppercase' }} variants={slideUp}>
             Hallor Defense Systems
           </motion.div>
 
@@ -136,21 +136,21 @@ export default function K9Page() {
       </section>
 
       {/* PHASE 1: MANNED */}
-      <section style={{ padding: '160px 60px', background: '#000', color: '#fff' }}>
-        <motion.div style={{ maxWidth: '1300px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '100px', alignItems: 'center' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
+      <section style={{ padding: '100px 60px', background: '#000', color: '#fff' }}>
+        <motion.div style={{ maxWidth: '1300px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.div style={{ borderRadius: '16px', overflow: 'hidden', border: '2px solid rgba(0,153,255,0.3)' }} variants={slideUp}>
             <img src="/k9-manned.jpeg" alt="K9 Defend Manned Phase 1" style={{ width: '100%', height: 'auto', display: 'block' }} />
           </motion.div>
 
           <motion.div variants={slideUp}>
-            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '28px', color: '#0099FF', textTransform: 'uppercase' }}>
+            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '12px', color: '#0099FF', textTransform: 'uppercase' }}>
               Phase 1: Manned Operations
             </div>
             <h2 style={{ fontSize: 'clamp(2.2rem, 9vw, 4rem)', fontWeight: 900, lineHeight: 1.15, marginBottom: '36px', letterSpacing: '-0.01em' }}>
               Manned Platform.<br />
               12 Month Timeline.
             </h2>
-            <p style={{ fontSize: '17px', fontWeight: 300, marginBottom: '32px', color: 'rgba(255,255,255,0.8)', lineHeight: 1.8 }}>
+            <p style={{ fontSize: '17px', fontWeight: 300, marginBottom: '16px', color: 'rgba(255,255,255,0.8)', lineHeight: 1.8 }}>
               Military-spec 4x4 electric tactical vehicle engineered to NATO STANAG specifications. Proven electric drivetrain from 7 years of commercial deployment. Ready for field operations in 12 months.
             </p>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '32px', marginTop: '48px' }}>
@@ -171,17 +171,17 @@ export default function K9Page() {
       </section>
 
       {/* PHASE 2: AUTONOMOUS */}
-      <section style={{ padding: '160px 60px', background: '#0a0a0a', color: '#fff' }}>
-        <motion.div style={{ maxWidth: '1300px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '100px', alignItems: 'center' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
+      <section style={{ padding: '100px 60px', background: '#0a0a0a', color: '#fff' }}>
+        <motion.div style={{ maxWidth: '1300px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.div variants={slideUp}>
-            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '28px', color: '#0099FF', textTransform: 'uppercase' }}>
+            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '12px', color: '#0099FF', textTransform: 'uppercase' }}>
               Phase 2: Autonomous Operations
             </div>
             <h2 style={{ fontSize: 'clamp(2.2rem, 9vw, 4rem)', fontWeight: 900, lineHeight: 1.15, marginBottom: '36px', letterSpacing: '-0.01em' }}>
               SAE Level 4<br />
               Autonomous UGV.
             </h2>
-            <p style={{ fontSize: '17px', fontWeight: 300, marginBottom: '32px', color: 'rgba(255,255,255,0.8)', lineHeight: 1.8 }}>
+            <p style={{ fontSize: '17px', fontWeight: 300, marginBottom: '16px', color: 'rgba(255,255,255,0.8)', lineHeight: 1.8 }}>
               Autonomous conversion leverages proven manned platform hardware. SAE Level 4 capable. DND-owned software architecture. Swarm-capable for coordinated multi-vehicle operations. Software-driven advancement, not hardware redesign.
             </p>
             <ul style={{ listStyle: 'none', padding: 0, marginBottom: '48px' }}>
@@ -207,7 +207,7 @@ export default function K9Page() {
       </section>
 
       {/* CTA */}
-      <section style={{ padding: '160px 60px', background: '#000' }}>
+      <section style={{ padding: '100px 60px', background: '#000' }}>
         <motion.div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.h2 style={{ fontSize: 'clamp(2.2rem, 9vw, 4rem)', fontWeight: 900, marginBottom: '36px', lineHeight: 1.15, letterSpacing: '-0.01em', color: '#fff' }} variants={slideUp}>
             Ready for Next-Gen Defense Mobility?

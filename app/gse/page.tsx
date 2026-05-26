@@ -64,11 +64,11 @@ export default function GSEPage() {
       </motion.nav>
 
       {/* HERO */}
-      <section style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', paddingTop: '120px', paddingLeft: '60px', paddingRight: '60px', paddingBottom: '60px', background: '#0a0a0a', position: 'relative', overflow: 'hidden' }}>
+      <section style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', paddingTop: '80px', paddingLeft: '60px', paddingRight: '60px', paddingBottom: '40px', background: '#0a0a0a', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '400px', background: 'linear-gradient(135deg, rgba(0,217,255,0.08) 0%, rgba(0,153,255,0.03) 100%)', pointerEvents: 'none' }} />
 
         <motion.div style={{ maxWidth: '950px', width: '100%', position: 'relative', zIndex: 1 }} initial="hidden" animate="visible" variants={fadeIn}>
-          <motion.div style={{ fontSize: '13px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '32px', color: '#00D9FF', textTransform: 'uppercase' }} variants={slideUp}>
+          <motion.div style={{ fontSize: '13px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '16px', color: '#00D9FF', textTransform: 'uppercase' }} variants={slideUp}>
             Hallor GSE
           </motion.div>
 
@@ -136,17 +136,17 @@ export default function GSEPage() {
       </section>
 
       {/* PRODUCT SHOWCASE */}
-      <section style={{ padding: '160px 60px', background: '#000', color: '#fff' }}>
-        <motion.div style={{ maxWidth: '1300px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '100px', alignItems: 'center' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
+      <section style={{ padding: '100px 60px', background: '#000', color: '#fff' }}>
+        <motion.div style={{ maxWidth: '1300px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.div variants={slideUp}>
-            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '28px', color: '#00D9FF', textTransform: 'uppercase' }}>
+            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '12px', color: '#00D9FF', textTransform: 'uppercase' }}>
               Proven Commercial Platform
             </div>
             <h2 style={{ fontSize: 'clamp(2.2rem, 9vw, 4rem)', fontWeight: 900, lineHeight: 1.15, marginBottom: '36px', letterSpacing: '-0.01em' }}>
               7 Years of<br />
               Proven Revenue.
             </h2>
-            <p style={{ fontSize: '17px', fontWeight: 300, marginBottom: '32px', color: 'rgba(255,255,255,0.8)', lineHeight: 1.8 }}>
+            <p style={{ fontSize: '17px', fontWeight: 300, marginBottom: '16px', color: 'rgba(255,255,255,0.8)', lineHeight: 1.8 }}>
               Operational at 8 airports across North America. 600+ trials completed. $25M+ pipeline secured. Manufacturing partnerships locked with Tier-1 suppliers. Government procurement pathway established.
             </p>
             <ul style={{ listStyle: 'none', padding: 0, marginBottom: '48px' }}>
@@ -197,7 +197,7 @@ export default function GSEPage() {
       </section>
 
       {/* CTA */}
-      <section style={{ padding: '160px 60px', background: '#0a0a0a' }}>
+      <section style={{ padding: '100px 60px', background: '#0a0a0a' }}>
         <motion.div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.h2 style={{ fontSize: 'clamp(2.2rem, 9vw, 4rem)', fontWeight: 900, marginBottom: '36px', lineHeight: 1.15, letterSpacing: '-0.01em' }} variants={slideUp}>
             Ready for Zero Emission Operations?

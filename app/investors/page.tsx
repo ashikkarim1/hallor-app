@@ -61,11 +61,11 @@ export default function InvestorsPage() {
       </motion.nav>
 
       {/* HERO */}
-      <section style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', paddingTop: '120px', paddingLeft: '60px', paddingRight: '60px', paddingBottom: '60px', background: '#0a0a0a', position: 'relative', overflow: 'hidden' }}>
+      <section style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', paddingTop: '80px', paddingLeft: '60px', paddingRight: '60px', paddingBottom: '40px', background: '#0a0a0a', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '400px', background: 'linear-gradient(135deg, rgba(0,217,255,0.08) 0%, rgba(0,153,255,0.03) 100%)', pointerEvents: 'none' }} />
 
         <motion.div style={{ maxWidth: '950px', width: '100%', position: 'relative', zIndex: 1 }} initial="hidden" animate="visible" variants={fadeIn}>
-          <motion.div style={{ fontSize: '13px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '32px', color: '#00D9FF', textTransform: 'uppercase' }} variants={slideUp}>
+          <motion.div style={{ fontSize: '13px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '16px', color: '#00D9FF', textTransform: 'uppercase' }} variants={slideUp}>
             Investment Opportunity
           </motion.div>
 
@@ -133,10 +133,10 @@ export default function InvestorsPage() {
       </section>
 
       {/* WHY HALLOR WINS */}
-      <section style={{ padding: '160px 60px', background: '#000', color: '#fff' }}>
+      <section style={{ padding: '100px 60px', background: '#000', color: '#fff' }}>
         <motion.div style={{ maxWidth: '1200px', margin: '0 auto' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.div style={{ marginBottom: '80px' }} variants={slideUp}>
-            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '28px', color: '#00D9FF', textTransform: 'uppercase' }}>
+            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '12px', color: '#00D9FF', textTransform: 'uppercase' }}>
               Competitive Advantage
             </div>
             <h2 style={{ fontSize: 'clamp(2.2rem, 9vw, 4rem)', fontWeight: 900, lineHeight: 1.15, marginBottom: '16px', letterSpacing: '-0.01em' }}>
@@ -209,10 +209,10 @@ export default function InvestorsPage() {
       </section>
 
       {/* MARKET OPPORTUNITY */}
-      <section style={{ padding: '160px 60px', background: '#0a0a0a', color: '#fff' }}>
+      <section style={{ padding: '100px 60px', background: '#0a0a0a', color: '#fff' }}>
         <motion.div style={{ maxWidth: '1200px', margin: '0 auto' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.div style={{ marginBottom: '80px' }} variants={slideUp}>
-            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '28px', color: '#00D9FF', textTransform: 'uppercase' }}>
+            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '12px', color: '#00D9FF', textTransform: 'uppercase' }}>
               Market Timing
             </div>
             <h2 style={{ fontSize: 'clamp(2.2rem, 9vw, 4rem)', fontWeight: 900, lineHeight: 1.15, marginBottom: '16px', letterSpacing: '-0.01em' }}>
@@ -276,10 +276,10 @@ export default function InvestorsPage() {
       </section>
 
       {/* PROOF POINTS */}
-      <section style={{ padding: '160px 60px', background: '#000', color: '#fff' }}>
+      <section style={{ padding: '100px 60px', background: '#000', color: '#fff' }}>
         <motion.div style={{ maxWidth: '1200px', margin: '0 auto' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.div style={{ marginBottom: '80px' }} variants={slideUp}>
-            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '28px', color: '#00D9FF', textTransform: 'uppercase' }}>
+            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '12px', color: '#00D9FF', textTransform: 'uppercase' }}>
               Execution Proof
             </div>
             <h2 style={{ fontSize: 'clamp(2.2rem, 9vw, 4rem)', fontWeight: 900, lineHeight: 1.15, marginBottom: '16px', letterSpacing: '-0.01em' }}>
@@ -313,10 +313,10 @@ export default function InvestorsPage() {
       </section>
 
       {/* PITCH DECK CTA */}
-      <section style={{ padding: '160px 60px', background: '#0a0a0a', color: '#fff' }}>
+      <section style={{ padding: '100px 60px', background: '#0a0a0a', color: '#fff' }}>
         <motion.div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.div style={{ marginBottom: '40px' }} variants={slideUp}>
-            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '28px', color: '#00D9FF', textTransform: 'uppercase' }}>
+            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '12px', color: '#00D9FF', textTransform: 'uppercase' }}>
               Investment Materials
             </div>
           </motion.div>
@@ -358,10 +358,10 @@ export default function InvestorsPage() {
       </section>
 
       {/* CONTACT CTA */}
-      <section style={{ padding: '160px 60px', background: '#000', color: '#fff' }}>
+      <section style={{ padding: '100px 60px', background: '#000', color: '#fff' }}>
         <motion.div style={{ maxWidth: '1200px', margin: '0 auto' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.div style={{ marginBottom: '80px' }} variants={slideUp}>
-            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '28px', color: '#00D9FF', textTransform: 'uppercase' }}>
+            <div style={{ fontSize: '12px', fontWeight: 700, letterSpacing: '0.2em', marginBottom: '12px', color: '#00D9FF', textTransform: 'uppercase' }}>
               Contact
             </div>
             <h2 style={{ fontSize: 'clamp(2.2rem, 9vw, 4rem)', fontWeight: 900, lineHeight: 1.15, marginBottom: '16px', letterSpacing: '-0.01em' }}>
@@ -370,7 +370,7 @@ export default function InvestorsPage() {
             <div style={{ width: '120px', height: '5px', background: 'linear-gradient(90deg, #00D9FF, #0099FF)', borderRadius: '2px' }} />
           </motion.div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '80px', marginTop: '80px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '48px', marginTop: '80px' }}>
             <motion.div variants={slideUp}>
               <div style={{ fontSize: '12px', fontWeight: 600, letterSpacing: '0.15em', marginBottom: '24px', color: 'rgba(255,255,255,0.6)' }}>
                 INVESTMENT INQUIRIES

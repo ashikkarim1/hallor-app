@@ -68,7 +68,7 @@ export default function ContactPage() {
               fontSize: 'clamp(2.5rem, 10vw, 4rem)',
               fontWeight: 900,
               lineHeight: 1,
-              marginBottom: '32px',
+              marginBottom: '16px',
               letterSpacing: '-0.02em',
             }}
             variants={slideUp}
@@ -83,7 +83,7 @@ export default function ContactPage() {
       </section>
 
       {/* CONTACT INFO */}
-      <section style={{ padding: '120px 40px', background: '#000', color: '#fff' }}>
+      <section style={{ padding: '80px 40px', background: '#000', color: '#fff' }}>
         <motion.div style={{ maxWidth: '1200px', margin: '0 auto' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '80px' }}>
             {/* CEO Contact */}
@@ -138,9 +138,9 @@ export default function ContactPage() {
       </section>
 
       {/* CTA */}
-      <section style={{ padding: '120px 40px', background: '#0a0a0a' }}>
+      <section style={{ padding: '80px 40px', background: '#0a0a0a' }}>
         <motion.div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
-          <motion.h2 style={{ fontSize: '40px', fontWeight: 900, marginBottom: '32px' }} variants={slideUp}>
+          <motion.h2 style={{ fontSize: '40px', fontWeight: 900, marginBottom: '16px' }} variants={slideUp}>
             Schedule a Briefing
           </motion.h2>
           <motion.p style={{ fontSize: '18px', fontWeight: 300, color: 'rgba(0,0,0,0.75)', maxWidth: '600px', margin: '0 auto 48px auto', lineHeight: 1.6 }} variants={slideUp}>

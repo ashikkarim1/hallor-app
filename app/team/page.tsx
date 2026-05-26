@@ -135,7 +135,7 @@ export default function TeamPage() {
               fontSize: 'clamp(2.5rem, 10vw, 5rem)',
               fontWeight: 900,
               lineHeight: 1,
-              marginBottom: '32px',
+              marginBottom: '16px',
               letterSpacing: '-0.02em',
               color: '#fff',
             }}
@@ -152,7 +152,7 @@ export default function TeamPage() {
       </section>
 
       {/* LEADERSHIP */}
-      <section style={{ padding: '120px 40px', background: '#000', color: '#fff' }}>
+      <section style={{ padding: '80px 40px', background: '#000', color: '#fff' }}>
         <motion.div style={{ maxWidth: '1200px', margin: '0 auto' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.div style={{ marginBottom: '80px' }} variants={slideUp}>
             <div style={{ fontSize: '12px', fontWeight: 600, letterSpacing: '0.15em', marginBottom: '24px', color: 'rgba(255,255,255,0.6)' }}>
@@ -189,7 +189,7 @@ export default function TeamPage() {
       </section>
 
       {/* OPERATIONS & SALES */}
-      <section style={{ padding: '120px 40px', background: '#0a0a0a' }}>
+      <section style={{ padding: '80px 40px', background: '#0a0a0a' }}>
         <motion.div style={{ maxWidth: '1200px', margin: '0 auto' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.div style={{ marginBottom: '80px' }} variants={slideUp}>
             <div style={{ fontSize: '12px', fontWeight: 600, letterSpacing: '0.15em', marginBottom: '24px', color: 'rgba(255,255,255,0.6)' }}>
@@ -226,7 +226,7 @@ export default function TeamPage() {
       </section>
 
       {/* BOARD */}
-      <section style={{ padding: '120px 40px', background: '#000', color: '#fff' }}>
+      <section style={{ padding: '80px 40px', background: '#000', color: '#fff' }}>
         <motion.div style={{ maxWidth: '1200px', margin: '0 auto' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.div style={{ marginBottom: '80px' }} variants={slideUp}>
             <div style={{ fontSize: '12px', fontWeight: 600, letterSpacing: '0.15em', marginBottom: '24px', color: 'rgba(255,255,255,0.6)' }}>
@@ -266,7 +266,7 @@ export default function TeamPage() {
       </section>
 
       {/* HIRING */}
-      <section style={{ padding: '120px 40px', background: '#0a0a0a' }}>
+      <section style={{ padding: '80px 40px', background: '#0a0a0a' }}>
         <motion.div style={{ maxWidth: '1200px', margin: '0 auto' }} initial="hidden" whileInView="visible" variants={fadeIn} viewport={{ once: true }}>
           <motion.div variants={slideUp}>
             <div style={{ fontSize: '12px', fontWeight: 600, letterSpacing: '0.15em', marginBottom: '24px', color: 'rgba(255,255,255,0.6)' }}>
@@ -320,7 +320,7 @@ export default function TeamPage() {
           <motion.h2 style={{ fontSize: '36px', fontWeight: 900, marginBottom: '24px' }} variants={slideUp}>
             Ready to Join Us?
           </motion.h2>
-          <motion.p style={{ fontSize: '16px', fontWeight: 300, marginBottom: '32px', color: 'rgba(255,255,255,0.8)' }} variants={slideUp}>
+          <motion.p style={{ fontSize: '16px', fontWeight: 300, marginBottom: '16px', color: 'rgba(255,255,255,0.8)' }} variants={slideUp}>
             We're building Canada's next defense-tech unicorn. If you have the skills and the stomach for it, let's talk.
           </motion.p>
           <motion.div style={{ fontSize: '14px', color: 'rgba(255,255,255,0.7)' }} variants={slideUp}>
