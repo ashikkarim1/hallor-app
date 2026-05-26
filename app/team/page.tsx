@@ -172,8 +172,8 @@ export default function TeamPage() {
                 transition={{ delay: idx * 0.15, duration: 0.8 }}
                 viewport={{ once: true }}
               >
-                <div style={{ width: '100%', height: '480px', marginBottom: '24px', borderRadius: '12px', overflow: 'hidden', background: '#1a1a1a', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <img src={`/${member.name.replace(/\s+/g, '')}.jpg`} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center' }} />
+                <div style={{ width: '100%', height: '480px', marginBottom: '24px', borderRadius: '12px', overflow: 'hidden', background: '#1a1a1a' }}>
+                  <img src={`/${member.name.replace(/\s+/g, '')}.jpg?v=2`} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
                 </div>
                 <h3 style={{ fontSize: '24px', fontWeight: 900, marginBottom: '8px' }}>{member.name}</h3>
                 <p style={{ fontSize: '12px', fontWeight: 600, letterSpacing: '0.1em', color: 'rgba(255,255,255,0.6)', marginBottom: '16px' }}>
@@ -209,8 +209,8 @@ export default function TeamPage() {
                 transition={{ delay: idx * 0.15, duration: 0.8 }}
                 viewport={{ once: true }}
               >
-                <div style={{ width: '100%', height: '480px', marginBottom: '24px', borderRadius: '12px', overflow: 'hidden', background: '#1a1a1a', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <img src={`/${member.name.replace(/\s+/g, '')}.jpg`} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center' }} />
+                <div style={{ width: '100%', height: '480px', marginBottom: '24px', borderRadius: '12px', overflow: 'hidden', background: '#1a1a1a' }}>
+                  <img src={`/${member.name.replace(/\s+/g, '')}.jpg?v=2`} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
                 </div>
                 <h3 style={{ fontSize: '24px', fontWeight: 900, marginBottom: '8px' }}>{member.name}</h3>
                 <p style={{ fontSize: '12px', fontWeight: 600, letterSpacing: '0.1em', color: 'rgba(255,255,255,0.6)', marginBottom: '16px' }}>
@@ -249,8 +249,8 @@ export default function TeamPage() {
                 transition={{ delay: idx * 0.15, duration: 0.8 }}
                 viewport={{ once: true }}
               >
-                <div style={{ width: '100%', height: '480px', marginBottom: '24px', borderRadius: '12px', overflow: 'hidden', background: '#1a1a1a', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <img src={`/${member.name.replace(/\s+/g, '')}.jpg`} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center' }} />
+                <div style={{ width: '100%', height: '480px', marginBottom: '24px', borderRadius: '12px', overflow: 'hidden', background: '#1a1a1a' }}>
+                  <img src={`/${member.name.replace(/\s+/g, '')}.jpg?v=2`} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
                 </div>
                 <h3 style={{ fontSize: '24px', fontWeight: 900, marginBottom: '8px' }}>{member.name}</h3>
                 <p style={{ fontSize: '12px', fontWeight: 600, letterSpacing: '0.1em', color: 'rgba(255,255,255,0.6)', marginBottom: '16px' }}>
