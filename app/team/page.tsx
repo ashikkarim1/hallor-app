@@ -145,7 +145,7 @@ export default function TeamPage() {
             <div style={{ color: 'rgba(255,255,255,0.6)' }}>of Heavy Industry, EV, and Public Markets</div>
           </motion.h1>
 
-          <motion.p style={{ fontSize: '18px', fontWeight: 300, marginBottom: '32px', maxWidth: '700px', margin: '0 auto', marginBottom: '32px', color: 'rgba(255,255,255,0.75)' }} variants={slideUp}>
+          <motion.p style={{ fontSize: '18px', fontWeight: 300, maxWidth: '700px', margin: '0 auto 32px auto', color: 'rgba(255,255,255,0.75)' }} variants={slideUp}>
             The team that built the Green Ox at 8 airports is now building K9 Defend for Canadian defense. We've already done this — in commercial markets, public markets, and emerging defense technology.
           </motion.p>
         </motion.div>

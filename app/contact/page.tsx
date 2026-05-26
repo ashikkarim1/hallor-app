@@ -143,7 +143,7 @@ export default function ContactPage() {
           <motion.h2 style={{ fontSize: '40px', fontWeight: 900, marginBottom: '32px' }} variants={slideUp}>
             Schedule a Briefing
           </motion.h2>
-          <motion.p style={{ fontSize: '18px', fontWeight: 300, marginBottom: '48px', color: 'rgba(0,0,0,0.75)', maxWidth: '600px', margin: '0 auto', marginBottom: '48px', lineHeight: 1.6 }} variants={slideUp}>
+          <motion.p style={{ fontSize: '18px', fontWeight: 300, color: 'rgba(0,0,0,0.75)', maxWidth: '600px', margin: '0 auto 48px auto', lineHeight: 1.6 }} variants={slideUp}>
             Investors, partners, and press can schedule time with the leadership team. We move fast and we're transparent. Let's talk.
           </motion.p>
           <motion.button
