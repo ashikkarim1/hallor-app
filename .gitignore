@@ -1,2 +1,4 @@
 node_modules/
 .next/
+*.pptx
+.DS_Store
