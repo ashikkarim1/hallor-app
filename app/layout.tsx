@@ -4,7 +4,7 @@ export const metadata = {
   title: 'Hallor Technologies',
   description: 'Silent Mobility for Critical Infrastructure',
   icons: {
-    icon: '/halloricon.png',
+    icon: '/halloricon.png?v=2',
   },
 }
 
