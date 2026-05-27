@@ -113,7 +113,7 @@ export default function Chat() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.8, y: 20 }}
             transition={{ duration: 0.3 }}
-            className="fixed bottom-20 left-4 md:left-6 w-96 max-w-[calc(100vw-2rem)] h-[600px] md:h-[500px] bg-black rounded-2xl border border-[rgba(0,217,255,0.3)] shadow-2xl z-40 flex flex-col overflow-hidden"
+            className="fixed bottom-20 right-4 md:right-6 w-96 max-w-[calc(100vw-2rem)] h-[600px] md:h-[500px] bg-black rounded-2xl border border-[rgba(0,217,255,0.3)] shadow-2xl z-40 flex flex-col overflow-hidden"
             style={{
               boxShadow: '0 25px 50px rgba(0, 217, 255, 0.2)',
             }}
@@ -227,7 +227,7 @@ export default function Chat() {
         onClick={() => setIsOpen(!isOpen)}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
-        className="fixed bottom-6 left-6 w-14 h-14 bg-gradient-to-br from-[#00D9FF] to-[#0099FF] rounded-full shadow-2xl flex items-center justify-center text-white font-bold text-2xl z-50 hover:shadow-lg transition"
+        className="fixed bottom-6 right-6 w-14 h-14 bg-gradient-to-br from-[#00D9FF] to-[#0099FF] rounded-full shadow-2xl flex items-center justify-center text-white font-bold text-2xl z-50 hover:shadow-lg transition"
         style={{
           boxShadow: isOpen
             ? '0 20px 40px rgba(0, 217, 255, 0.3)'
