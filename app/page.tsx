@@ -314,6 +314,7 @@ export default function Home() {
           </motion.h2>
 
           <motion.button
+            onClick={() => window.location.href = 'mailto:info@hallorgroup.com?subject=General%20Inquiry%20-%20Hallor%20Technologies'}
             style={{
               padding: '18px 48px',
               background: '#00D9FF',
