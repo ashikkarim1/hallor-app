@@ -354,8 +354,11 @@ export default function InvestorsPage() {
             REQUEST PITCH DECK
           </motion.button>
 
-          <motion.p style={{ fontSize: '15px', fontWeight: 300, color: 'rgba(255,255,255,0.6)', lineHeight: 1.6 }} variants={slideUp}>
-            Or reach out directly: <strong>investors@hallorgroup.com</strong>
+          <motion.p style={{ fontSize: '15px', fontWeight: 300, lineHeight: 1.6 }} variants={slideUp}>
+            Or reach out directly:{' '}
+            <a href="mailto:info@hallorgroup.com?subject=Pitch%20Deck%20Request%20-%20Hallor%20Technologies" title="Send email to info@hallorgroup.com" style={{ color: '#00D9FF', textDecoration: 'none', cursor: 'pointer', transition: 'all 0.3s', display: 'inline-block', padding: '8px 12px', borderRadius: '6px', background: '#00D9FF15', border: '1px solid #00D9FF40', fontWeight: 600 }} onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.8'; e.currentTarget.style.background = '#00D9FF25'; }} onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.background = '#00D9FF15'; }}>
+              ✉️ info@hallorgroup.com
+            </a>
           </motion.p>
         </motion.div>
       </section>
@@ -382,11 +385,15 @@ export default function InvestorsPage() {
               <p style={{ fontSize: '14px', fontWeight: 300, color: 'rgba(255,255,255,0.85)', marginBottom: '24px', lineHeight: 1.6 }}>
                 CEO. Open investment conversations. Series discussions.
               </p>
-              <div style={{ fontSize: '15px', fontWeight: 500, color: '#fff', marginBottom: '8px' }}>
-                dean@hallorgroup.com
+              <div style={{ fontSize: '14px', marginBottom: '12px' }}>
+                <a href="mailto:dean@hallorgroup.com?subject=Investment%20Inquiry%20-%20Hallor%20Technologies" title="Send Dean an email" style={{ color: '#00D9FF', textDecoration: 'none', cursor: 'pointer', transition: 'all 0.3s', display: 'inline-block', padding: '10px 16px', borderRadius: '6px', background: '#00D9FF15', border: '1px solid #00D9FF40', fontWeight: 600 }} onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.8'; e.currentTarget.style.background = '#00D9FF25'; }} onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.background = '#00D9FF15'; }}>
+                  ✉️ Send Email
+                </a>
               </div>
-              <div style={{ fontSize: '15px', fontWeight: 500, color: '#fff' }}>
-                1-604-209-9686
+              <div style={{ fontSize: '15px', fontWeight: 500 }}>
+                <a href="tel:1-604-209-9686" title="Call Dean" style={{ color: '#00D9FF', textDecoration: 'none', cursor: 'pointer', transition: 'all 0.3s', display: 'inline-block', padding: '8px 12px', borderRadius: '6px', border: '1px solid #00D9FF33' }} onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.8'; e.currentTarget.style.background = '#00D9FF15'; }} onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.background = 'transparent'; }}>
+                  📞 {' '} 1-604-209-9686
+                </a>
               </div>
             </motion.div>
 
@@ -398,8 +405,10 @@ export default function InvestorsPage() {
               <p style={{ fontSize: '14px', fontWeight: 300, color: 'rgba(255,255,255,0.85)', marginBottom: '24px', lineHeight: 1.6 }}>
                 Pitch deck requests. Financial materials. Due diligence support.
               </p>
-              <div style={{ fontSize: '15px', fontWeight: 500, color: '#fff' }}>
-                investors@hallorgroup.com
+              <div style={{ fontSize: '14px' }}>
+                <a href="mailto:info@hallorgroup.com?subject=Investor%20Relations%20Inquiry%20-%20Hallor%20Technologies" title="Send email to Investor Relations" style={{ color: '#00D9FF', textDecoration: 'none', cursor: 'pointer', transition: 'all 0.3s', display: 'inline-block', padding: '10px 16px', borderRadius: '6px', background: '#00D9FF15', border: '1px solid #00D9FF40', fontWeight: 600 }} onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.8'; e.currentTarget.style.background = '#00D9FF25'; }} onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.background = '#00D9FF15'; }}>
+                  ✉️ Send Email
+                </a>
               </div>
             </motion.div>
 
