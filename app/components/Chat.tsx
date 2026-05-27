@@ -31,7 +31,7 @@ export default function Chat() {
   }
 
   const renderMessageContent = (text: string) => {
-    // Convert email addresses to clickable mailto links
+    // Convert email addresses to clickable mailto links with subject
     const emailRegex = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi
     const parts = text.split(emailRegex)
 
@@ -40,15 +40,20 @@ export default function Chat() {
         return (
           <a
             key={idx}
-            href={`mailto:${part}`}
+            href={`mailto:${part}?subject=Hallor%20Inquiry`}
+            title={`Click to email ${part}`}
             style={{
               color: '#00D9FF',
               textDecoration: 'underline',
               cursor: 'pointer',
               fontWeight: 600,
+              transition: 'opacity 0.2s',
+              opacity: 1,
             }}
+            onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.8')}
+            onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
           >
-            {part}
+            ✉️ {part}
           </a>
         )
       }
