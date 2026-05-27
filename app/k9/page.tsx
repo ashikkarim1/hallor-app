@@ -56,6 +56,9 @@ export default function K9Page() {
             <Link href="/investors" style={{ cursor: 'pointer', color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>
               <motion.div whileHover={{ color: '#fff' }}>INVESTORS</motion.div>
             </Link>
+            <Link href="/references" style={{ cursor: 'pointer', color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>
+              <motion.div whileHover={{ color: '#fff' }}>RESOURCES</motion.div>
+            </Link>
             <Link href="/contact" style={{ cursor: 'pointer', color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>
               <motion.div whileHover={{ color: '#fff' }}>CONTACT</motion.div>
             </Link>

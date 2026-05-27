@@ -53,6 +53,9 @@ export default function InvestorsPage() {
             <Link href="/investors" style={{ cursor: 'pointer', color: '#00D9FF', textDecoration: 'none', fontWeight: 600 }}>
               INVESTORS
             </Link>
+            <Link href="/references" style={{ cursor: 'pointer', color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>
+              <motion.div whileHover={{ color: '#fff' }}>RESOURCES</motion.div>
+            </Link>
             <Link href="/contact" style={{ cursor: 'pointer', color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>
               <motion.div whileHover={{ color: '#fff' }}>CONTACT</motion.div>
             </Link>

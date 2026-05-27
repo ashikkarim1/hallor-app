@@ -120,6 +120,9 @@ export default function TeamPage() {
             <Link href="/investors" style={{ cursor: 'pointer', color: 'rgba(0,0,0,0.7)', textDecoration: 'none' }}>
               <motion.div whileHover={{ color: '#000' }}>INVESTORS</motion.div>
             </Link>
+            <Link href="/references" style={{ cursor: 'pointer', color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>
+              <motion.div whileHover={{ color: '#fff' }}>RESOURCES</motion.div>
+            </Link>
             <Link href="/contact" style={{ cursor: 'pointer', color: 'rgba(0,0,0,0.7)', textDecoration: 'none' }}>
               <motion.div whileHover={{ color: '#000' }}>CONTACT</motion.div>
             </Link>
