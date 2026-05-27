@@ -43,7 +43,7 @@ export default function Home() {
         >
           <Link href="/" style={{ textDecoration: 'none' }}>
             <motion.div style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }} whileHover={{ scale: 1.02 }}>
-              <img src="/halloricon.png?v=2" alt="Hallor Logo" style={{ height: '32px', width: 'auto', flexShrink: 0 }} />
+              <img src="/halloricon.png?v=2" alt="Hallor Logo" style={{ height: '32px', width: 'auto', flexShrink: 0, borderRadius: '6px' }} />
               <span style={{ fontSize: '20px', fontWeight: 900, letterSpacing: '-0.02em', color: '#fff' }}>HALLOR</span>
             </motion.div>
           </Link>
