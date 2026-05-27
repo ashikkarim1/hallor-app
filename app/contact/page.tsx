@@ -53,8 +53,8 @@ export default function ContactPage() {
             <Link href="/investors" style={{ cursor: 'pointer', color: 'rgba(0,0,0,0.7)', textDecoration: 'none' }}>
               <motion.div whileHover={{ color: '#000' }}>INVESTORS</motion.div>
             </Link>
-            <Link href="/references" style={{ cursor: 'pointer', color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>
-              <motion.div whileHover={{ color: '#fff' }}>RESOURCES</motion.div>
+            <Link href="/references" style={{ cursor: 'pointer', color: 'rgba(0,0,0,0.7)', textDecoration: 'none' }}>
+              <motion.div whileHover={{ color: '#000' }}>RESOURCES</motion.div>
             </Link>
             <Link href="/contact" style={{ cursor: 'pointer', color: '#fff', textDecoration: 'none', fontWeight: 600 }}>
               CONTACT
