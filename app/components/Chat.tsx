@@ -30,6 +30,32 @@ export default function Chat() {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }
 
+  const renderMessageContent = (text: string) => {
+    // Convert email addresses to clickable mailto links
+    const emailRegex = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi
+    const parts = text.split(emailRegex)
+
+    return parts.map((part, idx) => {
+      if (emailRegex.test(part)) {
+        return (
+          <a
+            key={idx}
+            href={`mailto:${part}`}
+            style={{
+              color: '#00D9FF',
+              textDecoration: 'underline',
+              cursor: 'pointer',
+              fontWeight: 600,
+            }}
+          >
+            {part}
+          </a>
+        )
+      }
+      return <span key={idx}>{part}</span>
+    })
+  }
+
   useEffect(() => {
     scrollToBottom()
   }, [messages])
@@ -151,7 +177,7 @@ export default function Chat() {
                         : 'bg-[rgba(0,217,255,0.1)] text-white border border-[rgba(0,217,255,0.3)]'
                     }`}
                   >
-                    {message.text}
+                    {renderMessageContent(message.text)}
                   </div>
                 </motion.div>
               ))}

@@ -98,11 +98,15 @@ export default function ContactPage() {
               <p style={{ fontSize: '14px', fontWeight: 300, color: 'rgba(255,255,255,0.85)', marginBottom: '24px', lineHeight: 1.6 }}>
                 CEO. Schnitzel. Open investment conversations.
               </p>
-              <div style={{ fontSize: '15px', fontWeight: 500, color: '#fff', marginBottom: '8px' }}>
-                1-604-209-9686
+              <div style={{ fontSize: '15px', fontWeight: 500, marginBottom: '8px' }}>
+                <a href="tel:1-604-209-9686" style={{ color: '#00D9FF', textDecoration: 'none', cursor: 'pointer', transition: 'opacity 0.3s' }} onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.8')} onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}>
+                  1-604-209-9686
+                </a>
               </div>
-              <div style={{ fontSize: '15px', fontWeight: 500, color: '#fff' }}>
-                dean@hallorgroup.com
+              <div style={{ fontSize: '15px', fontWeight: 500 }}>
+                <a href="mailto:dean@hallorgroup.com" style={{ color: '#00D9FF', textDecoration: 'none', cursor: 'pointer', transition: 'opacity 0.3s' }} onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.8')} onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}>
+                  dean@hallorgroup.com
+                </a>
               </div>
             </motion.div>
 
@@ -115,11 +119,15 @@ export default function ContactPage() {
               <p style={{ fontSize: '14px', fontWeight: 300, color: 'rgba(255,255,255,0.85)', marginBottom: '24px', lineHeight: 1.6 }}>
                 Operations & Communications. Customer inquiries. Press.
               </p>
-              <div style={{ fontSize: '15px', fontWeight: 500, color: '#fff', marginBottom: '8px' }}>
-                christina@hallorgroup.com
+              <div style={{ fontSize: '15px', fontWeight: 500, marginBottom: '8px' }}>
+                <a href="mailto:christina@hallorgroup.com" style={{ color: '#00D9FF', textDecoration: 'none', cursor: 'pointer', transition: 'opacity 0.3s' }} onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.8')} onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}>
+                  christina@hallorgroup.com
+                </a>
               </div>
-              <div style={{ fontSize: '15px', fontWeight: 300, color: 'rgba(255,255,255,0.75)', marginTop: '16px' }}>
-                +1 (604) 555-0142
+              <div style={{ fontSize: '15px', fontWeight: 300, marginTop: '16px' }}>
+                <a href="tel:+1-604-555-0142" style={{ color: '#00D9FF', textDecoration: 'none', cursor: 'pointer', transition: 'opacity 0.3s' }} onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.8')} onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}>
+                  +1 (604) 555-0142
+                </a>
               </div>
             </motion.div>
 
@@ -132,8 +140,10 @@ export default function ContactPage() {
               <p style={{ fontSize: '14px', fontWeight: 300, color: 'rgba(255,255,255,0.85)', marginBottom: '24px', lineHeight: 1.6 }}>
                 Development center. Test facilities. 8 airports operational.
               </p>
-              <div style={{ fontSize: '15px', fontWeight: 500, color: '#fff' }}>
-                info@hallorgroup.com
+              <div style={{ fontSize: '15px', fontWeight: 500 }}>
+                <a href="mailto:info@hallorgroup.com" style={{ color: '#00D9FF', textDecoration: 'none', cursor: 'pointer', transition: 'opacity 0.3s' }} onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.8')} onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}>
+                  info@hallorgroup.com
+                </a>
               </div>
             </motion.div>
           </div>
